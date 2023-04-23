@@ -1,0 +1,18 @@
+{
+  "name": "discord_calculator_bot",
+  "license": "ISC",
+  "scripts": {
+    "start": "node index.js",
+    "mintCommands": "node src/mintCommands.js",
+    "dev": "nodemon --config nodemon.json"
+  },
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0"
+  }
+}
