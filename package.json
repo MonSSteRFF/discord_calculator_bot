@@ -4,7 +4,8 @@
   "scripts": {
     "start": "node index.js",
     "mintCommands": "node src/mintCommands.js",
-    "dev": "nodemon --config nodemon.json"
+    "dev": "nodemon --config nodemon.json",
+    "prod": "npm run mintCommands && npm run start"
   },
   "dependencies": {
     "discord.js": "^14.9.0",
